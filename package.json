@@ -1,0 +1,26 @@
+{
+  "name": "solargreentoken",
+  "version": "1.0.0",
+  "description": "smart contract for solar green",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat deploy"
+  },
+  "author": "viacheslav zolotarov",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ethereum-waffle": "^4.0.10",
+    "hardhat": "^2.22.2"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "chai": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "mocha": "^10.3.0",
+    "node": "^20.11.1"
+  }
+}
